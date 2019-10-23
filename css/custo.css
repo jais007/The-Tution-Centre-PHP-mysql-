@@ -1,0 +1,361 @@
+body{
+    
+    margin:0px;
+    padding: 0px;
+    Border: 2px solid black;
+    min-width: 99.5%;
+    font-family:sans-serif;
+    
+    
+       
+}
+div{
+    margin: 0px;
+    padding: 0px;
+}
+
+#left{ float:left;}
+#right{float:right;}
+
+
+.container_header{
+    min-width: 99.4%;
+    background: #353c3c;
+    color: white;
+    padding: 5px;
+    display: inline-table;
+    
+    
+}
+.headera{
+    display: block;
+    height:70px;
+    width: 190px;
+    border:2px solid black;
+    background-image: url(../Pic/thetuitioncentre_logo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.headerb{
+    width: auto;
+    margin: 0px;
+    padding-right:20px;
+   
+    
+}
+.headerb ul li {
+    list-style: none;
+    padding: 10px;
+    margin: 0px;
+    display:inline-block;
+    background: #f4ebeb;
+   
+    
+    
+}
+.headerb ul li:hover{
+    
+    background: #51adc3;
+    
+}
+.headerb ul li a:link{
+    color:black;
+    text-decoration: none;
+    
+}
+.headerb ul li a.active{
+     color:black;
+    text-decoration: underline;
+     background: #51adc3;
+}
+
+.headerb ul li a:visited{
+    color: black;
+}
+
+
+.container_body{
+    
+    width:100%;
+    display: inline-block;
+    
+    
+    
+    
+   /* background-image: url(../Pic/bg.jpg);
+    min-height: 500px; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;*/
+    
+}
+
+.container_footer{
+    
+    min-width:99.4%;
+     background: #353c3c;
+    padding: 5px;
+    display:inline-table;
+    
+}
+.footera{
+    color:white;
+    height: 50px;
+    padding-top:15px;
+}
+
+.footerb{
+    
+    
+}
+
+.mySlides {
+    display:none;
+width:100%;
+    height:560px;
+    
+}
+
+.w3-content {
+    
+    margin: auto;
+}
+.w3-tooltip, .w3-display-container {
+    position: relative;
+}
+.w3-black, .w3-hover-black:hover {
+    color: #fff!important;
+    background-color: #000!important;
+}
+.w3-btn, .w3-button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.w3-display-right {
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(0%,-50%);
+    -ms-transform: translate(0%,-50%);
+}
+.w3-display-left {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(0%,-50%);
+    -ms-transform: translate(-0%,-50%);
+}
+
+.blockmain{
+    
+    width:99.4%;
+    display: inline;
+    
+    float: left
+    
+    
+}
+.block1{
+    border: 2px solid white;
+    float:left;
+    width:300px;
+    padding: 10px;
+    margin: 4vw;
+    
+}
+
+.block1:hover{
+    border: 2px solid black;
+    
+}
+.block2{
+    
+    height:150px;
+    width:100%;
+    display: block;
+    margin-bottom: 5px;
+    
+}
+.block3{
+    
+    
+    display: inline;
+    height: auto;
+    width:100%;
+    
+    
+}
+
+.regi_container{
+   border:2px solid green;
+    width:auto;
+    background-image: url(../Pic/bg4.jpg);
+        background-position: center;   
+    background-size: cover;
+    color:#ffffff; 
+     
+}
+.regi_box1{
+   border:2px solid #800000;
+    height:auto;
+   padding: 30px;
+    
+    
+}
+.regi_box2{
+    border:2px solid black;
+    height:auto;
+    display: block;
+    margin-left: 5vw;
+    border-radius: 5px;
+    padding: 40px;
+}
+
+input[type=text],select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 0px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+}
+input[type=file] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 0px 0;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.radio{
+    display: inline;
+   position: relative;
+    
+}
+input[type=radio] {
+    height:20px;
+    width:20px;
+    margin: 0px 0;
+    
+   
+    margin: 9px;
+    
+}
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 0px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+input[type=submit] {
+    width: 100%;
+    background-color: #599fd3;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: rgba(82, 182, 255, 0.96);
+}
+
+
+.promain{
+    border: 2px solid red;
+    background-image: url(../Pic/bg1.jpg);
+    background-size: cover;
+    background-position:bottom;
+     
+}
+.probox{
+
+     border: 2px solid white;
+    width:99.4%;
+    height:auto;
+     display:inline-flex;
+    
+}
+
+.proarea{
+    
+    margin:7%;
+    width:80%;
+    padding: 2%;
+    height:auto;
+    
+}
+.propic{
+    border: 2px solid black;
+    border-radius: 9px;
+    height:200px;
+    width:200px;
+    float:left;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+.prodata{
+    border: 2px solid #070505;
+     border-radius: 9px;
+    float:left;
+   width:50%;
+    min-height:200px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+
+
+
+.coursearea{
+    margin:1%;
+    width:98%;
+    height:auto;
+    
+}
+
+.topic{
+    border:2px solid black;
+    width:250px;
+    float:left;
+    min-height: 500px;
+    margin-bottom: 10px;
+}
+.content{
+     border:2px solid black;
+    float:left;
+    width:75%;
+    min-height: 480px;
+    padding: 10px;
+}
+.error {
+    color: #ff0000;
+
+}
+
+
+
+
+
+
